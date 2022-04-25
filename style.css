@@ -83,8 +83,6 @@ button {
   background: url("src/fondos/fondofechas.png");
   background-size: 110% 110%;
   background-clip: border-box;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
 }
 
 .section {
@@ -441,11 +439,8 @@ video {
   }
 
   #zonatexto {
-    height: auto;
-    font-size: 17px;
-    text-align: justify;
-    font-family: "Roboto Condensed", sans-serif;
-    padding-left: 1%;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
   }
 
   #zonaimagen {
