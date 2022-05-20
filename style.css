@@ -441,13 +441,18 @@ video {
   #zonatexto {
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
-    background-color:rgb(0, 0, 0);opacity:0.5;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
   }
 
   #zonaimagen {
     background: white;
     height: auto;
     padding: 0;
+  }
+
+  h1 {
+    visibility: hidden;
   }
 
   #footer {
